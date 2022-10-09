@@ -1,0 +1,186 @@
+nav {
+  background-color: #2a5196;
+}
+
+li {
+  color: white;
+  list-style-type: none;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+}
+
+li > a:hover {
+  color: white;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
+
+hr {
+  background-color: grey;
+  width: 75%;
+  margin-bottom: 20px;
+  z-index: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 > a {
+  color: #228c22;
+}
+
+h2 > a:hover {
+  color: #228c22;
+}
+
+h5 {
+  padding-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.top {
+  height: 70px;
+  box-shadow: -2px 5px 20px 26px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 90 !important;
+}
+
+.show {
+  display: none;
+}
+
+.center {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  line-height: 80px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#title {
+  font-size: 50px;
+  color: white;
+  font-weight: 70;
+}
+
+#logo {
+  height: 70px;
+  width: 100px;
+}
+
+#hamburger {
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+#mainImg {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
+
+#toggle {
+  width: 30%;
+  position: fixed;
+  height: 100vh;
+  z-index: 100;
+  top: 70px;
+}
+
+#upcoming {
+  font-style: bold;
+  font-size: 70px;
+  padding-top: 20px;
+}
+
+@media (max-width: 912px) {
+  nav {
+    width: 100%;
+  }
+  main {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .text {
+    margin-left: 20px;
+  }
+
+  .center {
+    display: none;
+  }
+
+  #mainImg {
+    width: 100%;
+  }
+
+  #toggle {
+    top: 69px;
+  }
+
+  #hamburger {
+    padding-bottom: 10px;
+  }
+
+  #logo {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  main {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  li {
+    font-size: 15px;
+    padding-right: 10px;
+  }
+  .center {
+    display: none;
+  }
+
+  #title {
+    font-size: 20px;
+  }
+
+  #logo {
+    width: auto;
+    height: 60px;
+    padding-right: 0;
+  }
+
+  #hamburger {
+    height: 50px;
+    width: auto;
+    padding-left: 15px;
+  }
+
+  #mainImg {
+    width: 100%;
+    margin-top: 50px;
+    display: block;
+  }
+}
