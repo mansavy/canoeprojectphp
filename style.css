@@ -52,8 +52,8 @@ footer {
   padding-bottom: 20px;
 }
 
-input {
-  margin-bottom: 100px;
+label {
+  margin-bottom: 10px;
 }
 
 .footer {
@@ -126,7 +126,7 @@ input {
 #header {
   font-style: bold;
   font-size: 70px;
-  padding-top: 20px;
+  padding-top: 120px;
 }
 
 @media (max-width: 912px) {

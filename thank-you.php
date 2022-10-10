@@ -4,11 +4,9 @@
  <body>
      <?php include "nav.php"; ?>
      <main>
-         <br />
-<br />
-<br />
-<br />
-          <h2 id="upcoming">Thank you</h2>
+    
+
+          <h2 id="header">Thank you</h2>
           <hr>
 
           <p>Thank you: <?=$_GET['email']?>
