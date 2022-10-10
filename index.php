@@ -1,50 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Halifax Canoe and Kayak</title>
-    <link rel="stylesheet" href="style.css" />
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  </head>
+<?php include "header.php"; ?>
   <body>
-    <nav class="navbar navbar-expand-lg top fixed-top">
-      <div class="container-fluid">
-        <img
-          src="images/hamburger.png"
-          alt="hamburger icon"
-          id="hamburger"
-          class="d-inline-block align-text-top"
-        />
 
-        <h1 id="title" class="navbar-text d-inline-block align-text-top">
-          Halifax Canoe and Kayak
-        </h1>
-
-        <a href="#" class="navbar-brand d-inline-block align-text-top">
-          <img src="images/paddle-white.png" alt="paddle logo" id="logo" />
-        </a>
-      </div>
-    </nav>
-    <nav id="toggle" class="show">
-      <ul>
-        <br />
-
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Book Trip</a></li>
-        <li><a href="#">Admin Login</a></li>
-      </ul>
-    </nav>
-
+    <?php include "nav.php"; ?>
+   
     <main>
       <div class="img-container">
         <img src="images/canoe.jpeg" alt="Canoe on a riverbank" id="mainImg" />
@@ -82,8 +40,9 @@
           <br />
         </div>
       </div>
-      <footer>Copyright 2022</footer>
+     
     </main>
-    <script src="script.js"></script>
+     <footer>Copyright 2022</footer>
+
   </body>
 </html>

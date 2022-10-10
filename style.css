@@ -52,6 +52,16 @@ footer {
   padding-bottom: 20px;
 }
 
+input {
+  margin-bottom: 100px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .top {
   height: 70px;
   box-shadow: -2px 5px 20px 26px rgba(0, 0, 0, 0.4);
@@ -108,6 +118,12 @@ footer {
 }
 
 #upcoming {
+  font-style: bold;
+  font-size: 70px;
+  padding-top: 20px;
+}
+
+#header {
   font-style: bold;
   font-size: 70px;
   padding-top: 20px;
