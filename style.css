@@ -129,6 +129,19 @@ label {
   padding-top: 120px;
 }
 
+#adventure-link {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: 200;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+
+#adventure-div {
+  margin: 30px auto;
+}
+
 @media (max-width: 912px) {
   nav {
     width: 100%;
