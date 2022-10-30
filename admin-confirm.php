@@ -4,14 +4,14 @@
  <body>
      <?php include "nav.php"; ?>
 
-    
+    <main>
 
           <h2 id="header">Admin - Confirm</h2>
           <hr>
 
           <p>Data has been added successfully to DB</p>
 
-
+</main>
 <div id="adventure-div">
 <a href="/canoeproject/all-adventures.php" id="adventure-link">View All Adventures</a>
 </div>

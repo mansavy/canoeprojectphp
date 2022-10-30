@@ -132,7 +132,7 @@ label {
 #adventure-link {
   text-align: center;
   color: black;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 200;
   text-decoration: none;
   border-bottom: 2px solid black;
@@ -140,6 +140,7 @@ label {
 
 #adventure-div {
   margin: 30px auto;
+  text-align: center;
 }
 
 @media (max-width: 912px) {
