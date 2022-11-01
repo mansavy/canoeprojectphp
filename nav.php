@@ -11,7 +11,7 @@
           Halifax Canoe and Kayak
         </h1>
 
-        <a href="#" class="navbar-brand d-inline-block align-text-top">
+        <a href="/canoeproject/index.php" class="navbar-brand d-inline-block align-text-top">
           <img src="images/paddle-white.png" alt="paddle logo" id="logo" />
         </a>
       </div>

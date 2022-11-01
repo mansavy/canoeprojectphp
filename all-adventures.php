@@ -1,4 +1,5 @@
 <?php include "header.php"; ?>
+<?php include "connection.php"; ?>
   <body>
 
     <?php include "nav.php"; ?>

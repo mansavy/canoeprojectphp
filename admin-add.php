@@ -1,6 +1,7 @@
 
  <html>
  <?php include "header.php"; ?>
+ <?php include "connection.php"; ?>
  <body>
      <?php include "nav.php"; ?>
      <main>
@@ -10,6 +11,8 @@
         <hr />
         <p>Input details about the trip</p>
         <form method="post" action="admin-confirm.php">
+
+       
 <div>
         <label for="heading">Heading</label>
         <input type="text" name="heading" /> 
