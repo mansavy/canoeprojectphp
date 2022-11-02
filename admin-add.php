@@ -19,8 +19,8 @@
 </div>
 
           <div>
-        <label for="date">Trip Date</label> 
-        <input type="date" name="date"/> 
+        <label for="tripDate">Trip Date</label> 
+        <input type="date" name="tripDate"/> 
 </div>
 <div>
         <label for="duration">Duration</label>
