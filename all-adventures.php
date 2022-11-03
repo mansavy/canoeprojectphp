@@ -26,7 +26,7 @@
      if ($result->num_rows > 0) {
         while($row = $result->fetch_assoc()) {
          echo "<h2><a href='#'>" .$row["heading"] . "</a></h2>
-            <div class='date'>Date: " .$row["tripDate"] . "</div>
+            <div class='date'>Date: " .$row["trip_date"] . "</div>
          <div class='duration'>Duration: " .$row["duration"] . "</div>
          <h5>Summary</h5>
          <p class='summary'> " .$row["summary"] . "</p>";
