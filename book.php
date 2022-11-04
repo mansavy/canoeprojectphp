@@ -12,18 +12,18 @@
         <form method="get" action="thank-you.php">
 <div>
         <label for="email">Email</label>
-        <input type="email" name="email" /> 
+        <input type="email" name="email" required/> 
 </div>
 
 <div>
-        <label for="location">Location</label> <select name="location" id="location">
+        <label for="location">Location</label> <select name="location" id="location" required>
             <option value="Halifax">Halifax</option>
             <option value="Sydney">Sydney</option>
         </select> 
 </div>
           <div>
         <label for="date">Trip Date</label> 
-        <input type="date" name="date"/> 
+        <input type="date" name="date" required/> 
 </div>
    <input type="submit" name="submit" />
 

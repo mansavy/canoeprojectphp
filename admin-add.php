@@ -15,20 +15,20 @@
        
 <div>
         <label for="heading">Heading</label>
-        <input type="text" name="heading" /> 
+        <input type="text" name="heading" required/> 
 </div>
 
           <div>
         <label for="tripDate">Trip Date</label> 
-        <input type="date" name="tripDate"/> 
+        <input type="date" name="tripDate" required/> 
 </div>
 <div>
         <label for="duration">Duration</label>
-        <input type="text" name="duration" /> 
+        <input type="text" name="duration" required/> 
 </div>
 <div>
         <label for="summary">Summary</label>
-        <input type="text" name="summary" /> 
+        <input type="text" name="summary" required/> 
 </div>
    <input type="submit" name="submit" id="submit" />
 
