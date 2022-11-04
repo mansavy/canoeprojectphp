@@ -15,7 +15,7 @@
 
         <div id="adventures">
           <h2><a href="#">Halifax</a></h2>
-          <div class="date">Date: September 10, 2022</div>
+          <div class="date">Date: November 23, 2022</div>
           <div class="duration">Duration: 4 days</div>
           <h5>Summary</h5>
           <p class="summary">
@@ -27,7 +27,7 @@
           </p>
 
           <h2><a href="#">Sydney</a></h2>
-          <div class="date">Date: September 25, 2022</div>
+          <div class="date">Date: November 28, 2022</div>
           <div class="duration">Duration: 2 days</div>
           <h5>Summary</h5>
           <p class="summary">

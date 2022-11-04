@@ -22,6 +22,7 @@
 
         <li><a href="/canoeproject/index.php">Home</a></li>
         <li><a href="/canoeproject/book.php">Book Trip</a></li>
+         <li><a href="/canoeproject/all-adventures.php">All Adventures</a></li>
         <li><a href="/canoeproject/admin-add.php">Admin Login</a></li>
       </ul>
     </nav>
